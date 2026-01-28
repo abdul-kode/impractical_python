@@ -25,21 +25,21 @@ To run these projects locally, follow these steps:
    git clone [https://github.com/abdul-kode/impractical_python.git](https://github.com/abdul-kode/impractical_python.git)
    cd impractical_python
 
-# Set up the Virtual Environment
+2. **Set up the Virtual Environment:**
 python -m venv .venv
-# Windows:
+Windows:
 .venv\Scripts\activate
-# Mac/Linux:
+Mac/Linux:
 source .venv/bin/activate
 
-# Install Dependencies:
+3. **Install Dependencies:**
 pip install -r requirements.txt
 
 
 # Project Directroy
 impractical_python/
-├── .venv/                      # Isolated virtual environment
-├── chapter_1_silly_names/      # Project 1: Pseudonyms & Essentials
+├── .venv/                      # Isolated virtual environment\n
+├── chapter_1_silly_names/      # Project 1: Pseudonyms & Essentials\n
 │   ├── data/                   # Chapter-specific name lists
 │   │   ├── first_names.txt
 │   │   ├── middle_names.txt
