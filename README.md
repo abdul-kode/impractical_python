@@ -36,20 +36,22 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 
-# Project Directroy
+# Project Directory
+
+```text
 impractical_python/
-├── .venv/                      # Isolated virtual environment\n
-├── chapter_1_silly_names/      # Project 1: Pseudonyms & Essentials\n
-│   ├── data/                   # Chapter-specific name lists
+├── .venv/                          # Isolated virtual environment
+├── chapter_1_silly_names/          # Project 1: Pseudonyms & Essentials
+│   ├── data/                       # Chapter-specific name lists
 │   │   ├── first_names.txt
 │   │   ├── middle_names.txt
-│   │   └── last_names.txt
-|   |   |-- text.txt
-|   |   |-- foreign_text.txt
-|
-│   ├── src/                                     # Source code for Chapter 1
-│   │   ├── pseudonyms.py
-│   │   ├── poor_man_bar_chart.py
-│   │   └── pig_latin.py
-│   │   └── challenged_pseudonyms.py              # Random name generator (33% middle name)
-│   │   └── challenged_poor_man_bar_chart.py.py   # Comparative letter frequency analyzer
+│   │   ├── last_names.txt
+│   │   ├── text.txt
+│   │   └── foreign_text.txt
+│   └── src/                        # Source code for Chapter 1
+│       ├── pseudonyms.py
+│       ├── poor_man_bar_chart.py
+│       ├── pig_latin.py
+│       ├── challenged_pseudonyms.py        # Random name generator (33% middle name)
+│       └── challenged_poor_man_bar_chart.py # Comparative letter frequency analyzer
+└── .gitignore                      # Git exclusion rules
