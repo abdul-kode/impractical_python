@@ -20,7 +20,7 @@ from pathlib import Path
 def load(filename: str) -> list:
     """Load dictionary from data directory and return the words in a list form."""
 
-    dir_path = Path(__file__).parent.parent/ "data"
+    dir_path = Path(__file__).parent.parent.parent/ "data"
     words_path = dir_path / filename
     try:
         with open(words_path, "r", encoding="utf-8") as f:
