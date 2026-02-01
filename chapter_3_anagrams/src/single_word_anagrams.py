@@ -2,7 +2,8 @@
 
 import load_dictionary
 
-words = load_dictionary.load("words")
+words = load_dictionary.global_data("words")
+print(words)
 
 def main():
     anagram_list = []

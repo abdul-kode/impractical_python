@@ -61,7 +61,7 @@ def process_choice(name):
 def main():
     """Help user build anagram phrase from their name."""
 
-    words = load_dictionary.load("words")
+    words = load_dictionary.global_data("words")
 
     name = "".join(ini_name.lower().split())
     name = name.replace('-', '')
